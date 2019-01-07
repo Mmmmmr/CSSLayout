@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font: 14px/1.5 Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+a:hover {
+    color: #fdcf48;
+}
+button {
+    width: 240px;
+    height: 70px;
+    margin-top:20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #fdcf48;
+    border-color: #fdcf48;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(253,207,72,0.9);
+}
+ul {
+    list-style: none;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
