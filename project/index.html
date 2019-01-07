@@ -105,11 +105,13 @@
         .img-team figure {
             float: left;
             width: 33.33%;
-           margin-bottom: 40px;
+          
+           margin-bottom: 15px;
         }
         .img-team figure a {
             display: block;
             margin: 15px;
+            position: relative;
         }
         .img-team figure a img {
             width: 100%;
@@ -130,12 +132,33 @@
         .bg-light-bray {
             background-color: #f7f7f7;;
         }
+        .img-group {
+            opacity:0;
+            z-index: 2;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(253,207,72,0.8);
+            z-index: 2;
+        } 
+        .img-group:hover {
+            opacity:1;
+        }
+        .img-group i {
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <nav >
+        <nav class>
             <a href="#" class="logo ">Start Porject</a>
             <ul class="">
                 <li><a href="#">SERVICES</a></li>
@@ -183,34 +206,46 @@
                             <div class="img-group">
                                 <i class="iconfont icon-jia"></i>
                             </div>
-                            <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png" alt=""></a>
+                            <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png" alt="">
+                        </a>
                         <figcaption>Round Icons</figcaption>
                         <p>Graphic Design</p>
                     </figure>
                     <figure>
-                        <a href="#"><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png" alt=""></a>
-                        <figcaption>Round Icons</figcaption>
-                        <p>Graphic Design</p>
+                        <a href="#">
+                                <div class="img-group">
+                                        <i class="iconfont icon-jia"></i>
+                                    </div><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/startup-framework.png" alt=""></a>
+                        <figcaption>Startup Framework</figcaption>
+                        <p>Website Design</p>
                     </figure>
                     <figure>
-                        <a href="#"><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png" alt=""></a>
-                        <figcaption>Round Icons</figcaption>
-                        <p>Graphic Design</p>
+                        <a href="#"> <div class="img-group">
+                                <i class="iconfont icon-jia"></i>
+                            </div><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/treehouse.png" alt=""></a>
+                        <figcaption>Treehouse</figcaption>
+                        <p>Website Design</p>
                     </figure>
                     <figure>
-                        <a href="#"><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png" alt=""></a>
-                        <figcaption>Round Icons</figcaption>
-                        <p>Graphic Design</p>
+                        <a href="#"> <div class="img-group">
+                                <i class="iconfont icon-jia"></i>
+                            </div><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/golden.png" alt=""></a>
+                        <figcaption>Golden</figcaption>
+                        <p>Website Design</p>
                     </figure>
                     <figure>
-                        <a href="#"><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png" alt=""></a>
-                        <figcaption>Round Icons</figcaption>
-                        <p>Graphic Design</p>
+                        <a href="#"> <div class="img-group">
+                                <i class="iconfont icon-jia"></i>
+                            </div><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/escape.png" alt=""></a>
+                        <figcaption>Escape</figcaption>
+                        <p>Website Design</p>
                     </figure>
                     <figure>
-                        <a href="#"><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png" alt=""></a>
-                        <figcaption>Round Icons</figcaption>
-                        <p>Graphic Design</p>
+                        <a href="#"> <div class="img-group">
+                                <i class="iconfont icon-jia"></i>
+                            </div><img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/dreams.png" alt=""></a>
+                        <figcaption>Dreams</figcaption>
+                        <p>Website Design</p>
                     </figure>
                 </div>
         </section>
