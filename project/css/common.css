@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html,body {
+html,body,main {
     height: 100%;
     font: 14px/1.5 Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
